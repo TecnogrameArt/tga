@@ -1,0 +1,588 @@
+/* Bem-Vindo Ao CSS da TecnogrameArt */
+/* Desenvolvido por Daniel Mafra */
+
+/* Guia do CSS */
+
+/** Geral **/
+/** Header **/
+/* SeÃ§Ã£o 1 */
+/* SeÃ§Ã£o 2 */
+/* SeÃ§Ã£o 3 */
+/* SeÃ§Ã£o 4 */
+/* SeÃ§Ã£o 5 */
+/** Footer **/
+
+/* Planos */
+/* Responsivo */
+
+/****************************************************************************************************************************************************/
+
+/** Geral **/
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+.clear{
+	clear: both;
+}
+a:focus{
+	outline: none;
+	text-decoration: none;
+}
+a:visited{
+	text-decoration: none;
+}
+a:active{
+	text-decoration: none;
+}
+.btn-test{
+	font-weight: 900;
+	font-size: 14px;
+	padding: 20px 70px;
+	border-radius: 50px;
+	color: #fff;
+	background-color: #08087f;
+	display: inline-block;
+	transition: 0.2s;
+	margin-top: 20px;
+	border: 2px solid #08087f;
+}
+.btn-test:hover{
+	background-color: #fff;
+	text-decoration: none;
+	color: #08087f;
+}
+/** FIM - Geral **/
+
+/** Header **/
+header{
+	background-color: #08087f;
+	padding: 20px 0px;
+	webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+header .col-md-6:last-child{
+	text-align: right;
+}
+header a{
+	font-weight: 900;
+	font-size: 13px;
+	padding: 18px 50px;
+	margin-right: auto;
+	border-radius: 50px;
+	color: #08087f;
+	background-color: #fff;
+	display: inline-block;
+	transition: 0.2s;
+	border: 2px solid #08087f;
+}
+header a:hover{
+	color: #fff;
+	text-decoration: none;
+	background-color: transparent;
+	border-color: #fff;
+}
+/** Fim - Header **/
+
+/* SeÃ§Ã£o 1 */
+#sec-1{
+	background-color: #FDFCFE;
+	padding: 30px 0px;
+}
+#sec-1 h2{
+	font-size: 40px;
+	font-weight: 800;
+	color: #08087f;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+#sec-1 p{
+	font-size: 20px;
+	font-weight: 300;
+}
+#sec-1 .container{ 
+	display: flex;
+	align-items: center;
+}
+/* Fim - SeÃ§Ã£o 1 */
+
+/* SeÃ§Ã£o 2 */
+#sec-2{
+	padding: 70px 0px;
+}
+#sec-2 .col-md-6:last-child{
+	padding-left: 40px;
+	padding-right: 40px;
+}
+#sec-2 .container{ 
+	display: flex;
+	align-items: center;
+}
+#sec-2 h2{
+	font-size: 40px;
+	font-weight: 800;
+	color: #08087f;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+#sec-2 p{
+	font-size: 16px;
+	font-weight: 300;
+}
+/* Fim - SeÃ§Ã£o 2 */
+
+/* SeÃ§Ã£o 3 */
+#sec-3{
+	padding: 45px 0px;
+	background-color: #08087f;
+	color: #fff;
+	text-align: center;
+}
+#sec-3 img{
+	margin: auto;
+}
+#sec-3 h3{
+	font-size: 17px;
+	font-weight: 900;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#sec-3 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+/* Fim - SeÃ§Ã£o 3 */
+
+/* SeÃ§Ã£o 4 */
+#sec-4 .container{ 
+	padding: 30px 0px;
+	display: flex;
+	align-items: center;
+}
+#sec-4 h2{
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 0px;
+	color: #08087f;
+	margin-bottom: 30px;
+}
+#sec-4 li{
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	list-style: none;
+	font-weight: 300;
+}
+#sec-4 li:before{
+	color: #08087f;
+	font-size: 18px;
+	content: "";
+	font-family: FontAwesome;
+	position: absolute;
+	left: 25px;
+}
+/* Fim - SeÃ§Ã£o 4 */
+
+/* SeÃ§Ã£o 5 */
+#sec-5{
+	background-color: #08087f;
+	color: #fff;
+}
+#sec-5 .container{ 
+	display: flex;
+	align-items: center;
+}
+#sec-5 .btn-test{
+	background-color: #fff;
+	color: #08087f;
+	border: 2px solid #fff;
+}
+#sec-5 .btn-test:hover{
+	color: #fff;
+	background-color: transparent;
+}
+#sec-5 h2{
+	font-size: 40px;
+	font-weight: 800;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+#sec-5 li{
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	list-style: none;
+	font-weight: 300;
+}
+#sec-5 li:before{
+	content: "";
+	font-family: FontAwesome;
+	font-size: 18px;
+	position: absolute;
+	left: 25px;
+}
+/* Fim - SeÃ§Ã£o 5 */
+
+/* SeÃ§Ã£o 6 */
+#sec-6{
+	padding: 70px 0px;
+	text-align: center;
+}
+#sec-6 h2{
+	font-size: 28px;
+	font-weight: 800;
+	color: #08087f;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+#sec-6 p{
+	font-size: 16px;
+	font-weight: 300;
+}
+/* Fim - SeÃ§Ã£o 6 */
+
+/** Footer **/
+footer{
+	padding: 40px 0px;
+	background-color: #1C1C1C;
+	color: #fff;
+}
+footer .container{
+	display: flex;
+	align-items: center;
+}
+footer .col-md-5{
+	text-align: right;
+}
+footer ul li{
+	display: inline-block;
+}
+footer .col-md-5 ul li:first-child{
+	margin-right: 40px;
+}
+footer h4{
+	font-weight: 700;
+	margin-top: 0px;
+	font-size: 16px;
+}
+footer h5{
+	font-size: 12px;
+}
+footer a{
+	color: #fff;
+}
+footer a:hover{
+	color: #fff;
+}
+/** Fim - Footer **/
+
+
+/* Planos */
+#planos{
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.75), 
+      rgba(0, 0, 0, 0.75)
+    ),
+    url('../../assets/imagens/fundoplanos.jpg'),no-repeat,center;
+    background-size: cover;
+    padding: 30px 0px;
+}
+#planos img{
+	margin: auto;
+}
+#planos h2{
+	font-weight: 900;
+	font-size: 32px;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.rowPlans{
+	margin: 60px 0px;
+	margin-top: 80px;
+}
+.card-plans{
+	background-color: rgba(255,255,255,.85);
+	color: #000;
+	padding: 30px 0px;
+	border-radius: 20px;
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+}
+.etiqueta{
+	position: absolute;
+	font-size: 11px;
+	font-weight: 500;
+	color: #fff;
+	background-color: #FF5559;
+	padding: 10px 25px;
+	top: -35px;
+	left: calc(50% - 64.30px);
+	text-transform: uppercase;
+}
+.card-plans h3{
+	font-size: 27px;
+	font-weight: 900;
+	color: #4D4D4D;
+	margin-bottom: 5px;
+}
+.card-plans h6{
+	margin-top: 5px;
+	font-size: 11px;
+	margin-bottom: 0px;
+}
+.card-plans h4{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 35px;
+	font-weight: 900;
+	color: #FF5559;
+}
+.card-plans h4 span{
+	font-size: 10px;
+}
+.card-plans p{
+	color: #6E6E6E;
+	font-weight: 500;
+	font-size: 14px;
+}
+.card-plans a{
+	font-weight: 900;
+	font-size: 14px;
+	padding: 13px 50px;
+	border-radius: 20px;
+	color: #fff;
+	background-color: #FF5559;
+	display: inline-block;
+	transition: 0.2s;
+	margin-top: 20px;
+	border: 2px solid #FF5559;
+}
+.card-plans a:hover{
+	text-decoration: none;
+	background-color: transparent;
+	color: #FF5559;
+	transition: 0.2s;
+}
+#planos-1{
+	padding: 60px 0px;
+	background-color: #393939;
+	color: #fff;
+	text-align: center;
+}
+#planos-1 img{
+	margin: auto;
+}
+.popular{
+	border: 4px solid #FF5559;
+	border-radius: 10px;
+}
+#planos-1 h3{
+	font-size: 17px;
+	font-weight: 900;
+	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#planos-1 p{
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 0px;
+}
+#planos-1 h2{
+	margin-top: 0px;
+	font-weight: 500;
+	font-size: 28px;
+}
+#planos-1 h4{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+/* Fim - Planos */
+
+
+/* Responsivo */
+
+@media (max-width: 1600px){
+	#sec-4 img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 1200px){
+	#sec-1 h2{
+		font-size: 32px;
+	}
+	#sec-3 p{
+		font-size: 12px;
+	}
+	#sec-4 h2{
+		font-size: 32px;
+	}
+	#sec-4{
+		padding: 30px 0px;
+	}
+	#sec-5{
+		padding: 30px 0px;
+	}
+	#sec-5 h2{
+		font-size: 32px;
+	}
+	#sec-5 img{
+		margin-bottom: -59px;
+		max-width: 100%;
+		height: auto;
+	}
+	.card-plans a{
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#planos-1 p{
+		font-size: 12px;
+	}
+	footer h4{
+		font-size: 14px;
+	}
+	footer .col-md-5 ul li:first-child{
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 991px){
+	header .col-md-6{
+		width: 50%;
+		float: left;
+	}
+	#sec-2 .container{
+		display: block;
+	}
+	#sec-2 .col-md-6{
+		margin-bottom: 40px;
+	}
+	#sec-2 img{
+		margin: auto;
+	}
+	#sec-3 .col-md-4{
+		margin-bottom: 30px;
+	}
+	#sec-4 .container{
+		display: block;
+	}
+	#sec-5{
+		display: block;
+	}
+	#sec-5 img{
+		display: none;
+	}
+	.rowPlans .col-md-4{
+		margin-bottom: 60px;
+	}
+	#planos-1 .col-md-4{
+		margin-bottom: 40px;
+	}
+}
+
+@media (max-width: 767px){
+	header a{
+		padding: 8px 12px;
+		font-size: 10px;
+		text-align: center;
+	}
+	header nav .container{
+		display: flex;
+		align-items: center;
+	}
+	#sec-1 h2{
+		font-size: 22px;
+	}
+	#sec-1 p{
+		font-size: 16px;
+	}
+	#sec-1 .container{
+		flex-direction: column;
+	}
+	.btn-test{
+		padding: 15px 12px;
+		font-size: 12px;
+		margin: auto;
+		display: block;
+		text-align: center;
+		margin-top: 25px;
+	}
+	#sec-1 .col-md-5{
+		text-align: center;
+		order: 2;
+	}
+	#sec-1 img{
+		margin-bottom: 25px;
+	}
+	#sec-2 h2{
+		font-size: 22px;
+	}
+	#sec-2 p{
+		font-size: 14px;
+	}
+	#sec-2{
+		padding: 40px 0px;
+	}
+	#sec-2 .col-md-6:last-child{
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 0px;
+	}
+	#sec-4 h2{
+		font-size: 22px;
+	}
+	#sec-5 h2{
+		font-size: 22px;
+	}
+	#sec-4 li{
+		font-size: 14px;
+	}
+	#sec-5 li{
+		font-size: 14px;
+	}
+	#sec-4 img{
+		display: none;
+	}
+	#sec-5 .container{
+		display: block;
+	}
+	#sec-5 .col-md-5{
+		padding: 0px;
+	}
+	#sec-6 h2{
+		font-size: 22px;
+	}
+	#sec-6 p{
+		font-size: 14px;
+	}
+	footer .container{
+		display: block;
+	}
+	footer .col-md-5 ul li:first-child{
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+	footer ul{
+		margin-left: 0px;
+		padding-left: 0px;
+	}
+	footer .col-md-5{
+		text-align: left;
+		margin-top: 25px;
+	}
+	#planos h2{
+		font-size: 22px;
+	}
+	.rowPlans{
+		margin: 30px 0px;
+	}
+}
